@@ -140,6 +140,22 @@ input, textarea {
     background: #0056b3;
 }
 
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.skill-list i {
+    margin-right: 5px;
+}
+
 /* Footer */
 footer {
     text-align: center;
