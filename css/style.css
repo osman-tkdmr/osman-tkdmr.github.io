@@ -20,6 +20,11 @@ header {
     z-index: 1000;
 }
 
+h1, h2, h3 {
+    width: 50%; /* You can adjust the width as needed */
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -140,20 +145,24 @@ input, textarea {
     background: #0056b3;
 }
 
-.skill-list {
+.skills {
+    text-align: center;
+}
+
+.skill-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
 }
 
-.skill-list li {
-    margin: 5px;
-    font-size: 16px;
+.skill-item {
+    margin: 20px;
+    text-align: center;
 }
 
-.skill-list i {
-    margin-right: 5px;
+.skill-item p {
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 /* Footer */
