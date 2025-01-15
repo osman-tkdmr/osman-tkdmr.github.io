@@ -119,22 +119,25 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
-    align-items: stretch;
+    align-items: flex-start; /* Align items at the start */
+    gap: 1.5rem; /* Use gap for consistent spacing */
 }
 
 .skill-item {
-    margin: 20px;
+    flex: 1 1 calc(25% - 2rem); /* Four items per row with margin */
+    max-width: calc(25% - 2rem); /* Ensure consistent size */
+    min-width: 200px; /* Minimum size for smaller screens */
     background: #1a1a1a;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Enhanced shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    text-align: center; /* Center-align text */
 }
 
 .skill-item p {
-    margin-top: 5px;
+    margin-top: 0.5rem; /* Add spacing between text and top of the item */
     font-weight: bold;
-    color: #2196f3; /* More vivid blue */
+    color: #2196f3;
 }
 
 /* Contact Section */
