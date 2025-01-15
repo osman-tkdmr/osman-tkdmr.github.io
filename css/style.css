@@ -108,6 +108,7 @@ nav {
 }
 
 .skill-container {
+    margin: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -116,7 +117,6 @@ nav {
 }
 
 .skill-item {
-    margin: 20px;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: bottom;
