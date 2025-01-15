@@ -153,6 +153,7 @@ input, textarea {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    align-items: stretch;
 }
 
 .skill-item {
