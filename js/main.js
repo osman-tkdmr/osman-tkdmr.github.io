@@ -12,6 +12,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     // Add your form submission logic here
+    let params = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+        
+    }
+    
+    emailjs.send("service_a3cg5uv", "service_a3cg5uv", params).then(alert("email sent!!!"))
+    
     alert('Message sent successfully!');
     this.reset();
 });
