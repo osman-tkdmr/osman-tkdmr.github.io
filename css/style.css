@@ -119,7 +119,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start; /* Align items at the start */
+    align-items: flex-end; /* Align items at the start */
     gap: 1.5rem; /* Use gap for consistent spacing */
 }
 
