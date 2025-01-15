@@ -21,8 +21,7 @@ header {
 }
 
 h1, h2, h3 {
-    width: 50%; /* You can adjust the width as needed */
-    margin: 0 auto;
+    text-align: center;
 }
 
 nav {
@@ -158,7 +157,7 @@ input, textarea {
 
 .skill-item {
     margin: 20px;
-    text-align: center;
+    text-align: bottom;
 }
 
 .skill-item p {
