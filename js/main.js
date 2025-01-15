@@ -47,7 +47,7 @@ document.getElementById('contact-form')?.addEventListener('submit', async functi
     
     try {
         // Send email using EmailJS
-        await emailjs.send("service_a3cg5uv", "template_id", params); // Make sure to replace template_id
+        await emailjs.send("service_a3cg5uv", "template_pozaxpy", params); // Make sure to replace template_id
         showNotification('Message sent successfully!', 'success');
         this.reset();
     } catch (error) {
